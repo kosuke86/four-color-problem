@@ -1,0 +1,29 @@
+//define.h
+parameter CHECK_COLOR = 4'b0000;
+parameter SUB = 4'b0001;
+parameter MUL = 4'b0010;
+parameter DIV = 4'b0011;
+parameter INC = 4'b0100;
+parameter DEC = 4'b0101;
+parameter COMPARE = 4'b0110;
+parameter CHECK= 4'b0111;
+parameter STORE = 4'b1000;
+parameter LI = 4'b1001;
+parameter LOAD = 4'b1010;
+parameter JMP = 4'b1011;
+parameter JNZ = 4'b1100;
+parameter SEPARATE1 = 4'b1101;
+parameter SEPARATE2 = 4'b1110;
+parameter CHECK_MAP = 4'b1111;
+
+parameter ten_six = 4'b0001;
+parameter color =4'b1111;
+parameter banchi = 4'b0000;
+parameter teisuu = 4'b1011;
+parameter map = 4'b0010;
+parameter up = 4'b0011;
+parameter down = 4'b0100;
+parameter up_color =4'b0101;
+parameter down_color = 4'b0110;
+parameter color_memory = 4'b0111;
+parameter ichi = 4'b1000;
